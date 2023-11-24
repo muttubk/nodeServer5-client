@@ -1,0 +1,51 @@
+.SignIn{
+    margin: 50px;
+}
+
+.SignIn h1{
+    text-align: center;
+    color: limegreen;
+}
+
+.SignIn form{
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SignIn label{
+    display: block;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.SignIn input{
+    width: 100%;
+    padding: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+#signInBtn{
+    background-color: salmon;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#signInBtn:active{
+    background-color: lightsalmon;
+}
+
+.SignIn .errorMessage{
+    color: red;
+    font-size: 0.9rem;
+}
